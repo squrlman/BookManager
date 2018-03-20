@@ -24,7 +24,7 @@ $ mysql -u root -p password
 Then create a database:
 
 mysql> CREATE DATABASE bookmanager;
-![alt text](https://github.com/squrlman/BookManager/master/public/uploads/shot_postman.png)
+![alt text](public/uploads/shot_postman.png "Description goes here")
 
 --Authors
 GET -http://localhost:8000/api/authors
