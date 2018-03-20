@@ -20,7 +20,7 @@ class AuthorsController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
     public function showAllAuthors(){
-        return response()->json(DB::table('authors')->orderBy('title','desc')->get(),201);
+        return response()->json(DB::table('authors')->orderBy('first_name','desc')->get(),201);
     }
 
     /**

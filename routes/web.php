@@ -53,7 +53,4 @@ $router->group(['prefix' => 'api'], function () use ($router) {
     /*CSV UPLOAD*/
     $router->post('magazines/readCSV',['uses' => 'MagazinesController@uploaded_csv']);
 
-
-
-
 });
